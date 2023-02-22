@@ -3,6 +3,7 @@ kind: K6
 metadata:
   name: k6-sample
 spec:
+  ttlSecondsAfterFinished: 100
   parallelism: 4
   script:
     configMap:
