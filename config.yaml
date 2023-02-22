@@ -22,8 +22,7 @@ data:
       check(result, {
         'http response status code is 200': result.status === 200,
       });
-      // cleanup
-    http.post(url, 'DEL/ids');
+
       
     }
 
