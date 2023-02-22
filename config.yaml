@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
 
 data:
-  test.js: |+
+  new.js: |+
     import http from 'k6/http';
     import { check } from 'k6';
 
