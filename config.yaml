@@ -21,4 +21,4 @@ data:
 kind: ConfigMap
 metadata:
   creationTimestamp: null
-  name: test
+  name: crocodile-stress-test
