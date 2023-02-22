@@ -3,6 +3,7 @@ kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: crocodile-stress-test
+namespace: default
 data:
   test.js: |+
     import http from 'k6/http';
