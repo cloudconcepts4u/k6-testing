@@ -3,9 +3,9 @@ kind: K6
 metadata:
   name: k6-sample
   annotations:
-    argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/hook-delete-policy: HookSucceeded
-    argocd.argoproj.io/hook: "0"
+    #argocd.argoproj.io/hook: PreSync
+    #argocd.argoproj.io/hook-delete-policy: HookSucceeded
+    #argocd.argoproj.io/hook: "0"
 spec:
   parallelism: 4
   script:
