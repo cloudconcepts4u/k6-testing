@@ -4,6 +4,8 @@ metadata:
   name: crocodile-stress-test
   labels:
     app.kubernetes.io/part-of: argocd
+    annotations:
+      argocd.argoproj.io/sync-wave: "0"
 
 
 data:
