@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: crocodile-stress-test
-  labels:
+labels:
     app.kubernetes.io/part-of: argocd
     annotations:
    # argocd.argoproj.io/sync-wave: "0"
