@@ -14,7 +14,7 @@ spec:
     listKind: K6List
     plural: k6s
     singular: k6
-  scope: Namespaced
+  #scope: Namespaced
   versions:
   - additionalPrinterColumns:
     - description: Stage
