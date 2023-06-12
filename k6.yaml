@@ -14,7 +14,7 @@ spec:
       file: new.js
   arguments: -o xk6-prometheus-rw
   runner:
-    image: k6-prometheus:local
+    image: k6-prometheus:latest
     env:
       - name: K6_PROMETHEUS_RW_SERVER_URL
         value: http://172.21.43.203:9090/api/v1/write
